@@ -1,11 +1,11 @@
-let a = 'hello'
-console.log(a)
+let aa = 'hello'
+console.log(aa)
 
-let b = 'owu'
-console.log(b)
+let bb = 'owu'
+console.log(bb)
 
-let c = 'com'
-console.log(c)
+let cc = 'com'
+console.log(cc)
 
 let d = 'ua'
 console.log(d)
@@ -37,29 +37,11 @@ console.log(b1)
 let b2 = false
 console.log(b2)
 
-let arr = [11, 22, 33, 44]
-let firstName: = {
-    name:tom,
-    surname:siv,
-    middle name:Ivan,
-}
-console.log(arr)
-console.log(firstName)
+let a = 100;
+console.log(a)
 
-let arr1 = [11, 22, 33, 44]
-let middleName: = {
-    name:Tom,
-    surname:si,
-    middle name:Iva,
-}
-console.log(arr1)
-console.log(middleName)
+let b = '100'
+console.log(b)
 
-let arr2 = [11, 22, 33, 44]
-let lastName: = {
-    name:Lina,
-    surname:siva,
-    middle name:Ivann,
-}
-console.log(arr2)
-console.log(lastName)
+let c = true;
+console.log(c)
