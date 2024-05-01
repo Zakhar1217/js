@@ -39,27 +39,40 @@ let b2 = false
 console.log(b2)
 
 // Завдання друге
+let  f1 = 'Siva'
+let f2 = 'Tom'
+let f3 = 'Ivano'
+console.log(f1,f2,f3)
 
+
+let  f4 = 'Siv'
+let f5 = 'Ivan'
+let f6 = 'Tom'
+console.log(f4,f5,f6)
+
+
+let  f7 = 'Pin'
+let f8 = 'Harry'
+let f9 = 'Potter'
+console.log(f7,f8,f9)
 // Завдання третє
 const x = 100;
 
 console.log(x);
 
-const type = typeof x;
-console.log(type)
+console.log(typeof  x)
+
 
 
 const x1 = '100';
 
 console.log(x1);
 
-const types = typeof x1;
-console.log(types)
+console.log(typeof  x1)
 
 
 const x2 = true;
 
 console.log(x2);
 
-const typess = typeof x2;
-console.log(typess)
+console.log(typeof  x2)
