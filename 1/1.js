@@ -1,3 +1,4 @@
+// Завдання перше
 let aa = 'hello'
 console.log(aa)
 
@@ -37,11 +38,28 @@ console.log(b1)
 let b2 = false
 console.log(b2)
 
-let a = 100;
-console.log(a)
+// Завдання друге
 
-let b = '100'
-console.log(b)
+// Завдання третє
+const x = 100;
 
-let c = true;
-console.log(c)
+console.log(x);
+
+const type = typeof x;
+console.log(type)
+
+
+const x1 = '100';
+
+console.log(x1);
+
+const types = typeof x1;
+console.log(types)
+
+
+const x2 = true;
+
+console.log(x2);
+
+const typess = typeof x2;
+console.log(typess)
