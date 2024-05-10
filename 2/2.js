@@ -57,7 +57,7 @@ console.log(user)
 //--------5------
 const temp = [
     {
-        id:1,
+        id:0,
         monday:{
             temperature:[
                 {name:'morning' ,value: 19},
@@ -65,7 +65,7 @@ const temp = [
                 {name:'night' ,value: 17},
             ]
         },
-        id:2,
+        id:1,
         Tuesday:{
             temperature:[
                 {name:'morning' ,value: 19},
@@ -73,7 +73,7 @@ const temp = [
                 {name:'night' ,value: 17},
             ]
         },
-        id:3,
+        id:2,
         Wednesday:{
             temperature:[
                 {name:'morning' ,value: 19},
@@ -81,7 +81,7 @@ const temp = [
                 {name:'night' ,value: 17},
             ]
         },
-        id:4,
+        id:3,
         Thursday:{
             temperature:[
                 {name:'morning' ,value: 19},
@@ -89,7 +89,7 @@ const temp = [
                 {name:'night' ,value: 17},
             ]
         },
-        id:5,
+        id:4,
         Friday:{
             temperature:[
                 {name:'morning' ,value: 19},
@@ -97,7 +97,7 @@ const temp = [
                 {name:'night' ,value: 17},
             ]
         },
-        id:6,
+        id:5,
         Saturday:{
             temperature:[
                 {name:'morning' ,value: 19},
@@ -105,7 +105,7 @@ const temp = [
                 {name:'night' ,value: 17},
             ]
         },
-        id:7,
+        id: 6,
         Sunday:{
             temperature:[
                 {name:'morning' ,value: 19},
@@ -118,14 +118,11 @@ const temp = [
 console.log(temp)
 //------6----
 let x = 1
-'let' x = prompt()
 if (x !== 0){
     console.log('Вірно')
 }else{
     console.log('Не вірно')
 }
-
-let x = 0
 
 if (x !== 0){
     console.log('Вірно')
@@ -133,10 +130,192 @@ if (x !== 0){
     console.log('Не вірно')
 }
 
-let x = -3
-let x = prompt()
 if (x !== 0){
     console.log('Вірно')
 }else{
     console.log('Не вірно')
+}
+//------7----
+let time = 45
+
+let firstQuarter = time >= 0 && time <= 14
+let secondQuarter = time >= 15 && time <= 29
+let thirdQuarter = time >= 30 && time <= 44
+let fourthQuarter = time >= 45 && time <= 59
+
+if (firstQuarter) {
+    console.log('Число попадає до першої чверті')
+} else if (secondQuarter) {
+    console.log('Число попадає до другої чверті')
+} else if (thirdQuarter) {
+    console.log('Число попадає до третьої чверті')
+} else if (fourthQuarter) {
+    console.log('Число попадає до четвертої чверті')
+}  else {
+    console.log('Ви ввели число яке не входить в проміжок від 0 до 59 включно')
+}
+//-----8------
+let timetableArr = [
+    {
+        id: 1,
+        title: 'Понеділок',
+        deals: [
+            ' розминка',
+            'робота',
+            'вечеряти'
+        ]
+    },
+    {
+        id: 2,
+        title: 'Вівторок',
+        deals: [
+            'медитація',
+            'Робота',
+            'вечеряти'
+        ]
+    },
+    {
+        id: 3,
+        title: 'Середа',
+        deals: [
+            'медитація',
+            'Зустріч з друзями  на свіжому повітрі ',
+            'вечеряти'
+        ]
+    },
+    {
+        id: 4,
+        title: 'Четвер',
+        deals: [
+            'Ранкова прогулянка',
+            'Робота  ',
+            'вечеряти'
+        ]
+    },
+    {
+        id: 5,
+        title: 'Пятниця',
+        deals: [
+            'Сніданок і водні процедури ',
+            'робота',
+            'вечеряти'
+        ]
+    },
+    {
+        id: 6,
+        title: 'Субота',
+        deals: [
+            'сніданок',
+            'Прогулянка на свіжому повітрі',
+            'вечеряти'
+        ]
+    },
+    {
+        id: 7,
+        title: 'Неділя',
+        deals: [
+            'погуляти з  друзями',
+            'вигуляти собаку',
+            'вечеряти'
+        ]
+    }
+]
+
+let dayNumber = 3
+
+switch (dayNumber) {
+    case 1:
+        console.log(timetableArr[0]['title'])
+        console.log(timetableArr[0]['deals'])
+        break
+    case 2:
+        console.log(timetableArr[1]['title'])
+        console.log(timetableArr[1]['deals'])
+        break
+    case 3:
+        console.log(timetableArr[2]['title'])
+        console.log(timetableArr[2]['deals'])
+        break
+    case 4:
+        console.log(timetableArr[3]['title'])
+        console.log(timetableArr[3]['deals'])
+        break
+    case 5:
+        console.log(timetableArr[4]['title'])
+        console.log(timetableArr[4]['deals'])
+        break
+    case 6:
+        console.log(timetableArr[5]['title'])
+        console.log(timetableArr[5]['deals'])
+        break
+    case 7:
+        console.log(timetableArr[6]['title'])
+        console.log(timetableArr[6]['deals'])
+        break
+    default:
+        console.log('Введене число більше ніж від 1 до 7 включно')
+}
+//----------9------
+let a = 999999
+let b = 1
+
+if (a > b) {
+    console.log(`Число ${a} більше ніж ${b}`)
+} else if (a < b) {
+    console.log(`Число ${b} більше ніж ${a}`)
+} else if (a == b) {
+    console.log('Введені числа однакові')
+}
+//------10----
+let xx = 'null'
+if (xx === null, xx === undefined , xx === false , xx === '' , xx === "" , xx === `` , xx === NaN , xx === 0 , xx === -0 , xx === 0n) {
+     xx = "default"
+     console.log(xx)
+ } else {
+     console.log(xx)
+ }
+//-------------11-------
+let coursesAndDurationArray = [
+    {title: 'JavaScript Complex', monthDuration: 5},
+    {title: 'Java Complex', monthDuration: 6},
+    {title: 'Python Complex', monthDuration: 6},
+    {title: 'QA Complex', monthDuration: 4},
+    {title: 'FullStack', monthDuration: 7},
+    {title: 'Frontend', monthDuration: 4}
+];
+
+if (coursesAndDurationArray[0]['monthDuration'] >= 5) {
+    console.log('Супер!')
+} else {
+    console.log('Погано')
+}
+
+if (coursesAndDurationArray[1]['monthDuration'] >= 5) {
+    console.log('Супер!')
+} else {
+    console.log('Погано')
+}
+
+if (coursesAndDurationArray[2]['monthDuration'] >= 5) {
+    console.log('Супер!')
+} else {
+    console.log('Погано')
+}
+
+if (coursesAndDurationArray[3]['monthDuration'] >= 5) {
+    console.log('Супер!')
+} else {
+    console.log('Погано')
+}
+
+if (coursesAndDurationArray[4]['monthDuration'] >= 5) {
+    console.log('Супер!')
+} else {
+    console.log('Погано')
+}
+
+if (coursesAndDurationArray[5]['monthDuration'] >= 5) {
+    console.log('Супер!')
+} else {
+    console.log('Погано')
 }
